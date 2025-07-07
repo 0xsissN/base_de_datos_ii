@@ -1,6 +1,5 @@
 CREATE DATABASE tienda_online;
 
-
 CREATE TABLE cliente (
     id_cliente SERIAL PRIMARY KEY,
     nombre VARCHAR(100),
@@ -27,5 +26,5 @@ CREATE TABLE detalle_pedido (
     id_pedido INT REFERENCES pedido(id_pedido),
     id_producto INT REFERENCES producto(id_producto),
     cantidad INT,
-    precio_unitario NUMERIC(10, 2)
+    precio_unitario DECIMAL(10, 2)
 );
