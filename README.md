@@ -4,20 +4,39 @@ Este repositorio contiene una base de datos de ejemplo orientada a la práctica 
 
 ---
 
-## 📁 Estructura del Proyecto
+## Estructura del Proyecto
 
-base_de_datos_ii/
-├── database/
-│ ├── schema_postgresql.sql # Creación de tablas
-│ ├── inserts_postgresql.sql # Inserción de datos
-├── ejercicios/
-│ ├── 01_basicos.sql
-│ ├── 02.subconsultas.sql
-├── soluciones/
-│ ├── 01_clase.sql
-├── pdf/
-│ ├── 01_ejercicios_para_clase.pdf
-└── README.md
+# Base de Datos II
+
+### 📁 `database/`
+
+Contiene los archivos de configuración de la base de datos:
+
+- **`schema_postgresql.sql`** - Script para la creación de tablas y estructura de la base de datos
+- **`inserts_postgresql.sql`** - Script con datos de ejemplo para poblar las tablas
+
+### 📁 `ejercicios/`
+
+Ejercicios prácticos organizados por temas:
+
+- **`01_basicos.sql`** - Ejercicios fundamentales de SQL
+- **`02_subconsultas.sql`** - Ejercicios de subconsultas y consultas complejas
+
+### 📁 `soluciones/`
+
+Soluciones y ejemplos resueltos:
+
+- **`01_clase.sql`** - Soluciones trabajadas en clase
+
+### 📁 `pdf/`
+
+Material de apoyo en formato PDF:
+
+- **`01_ejercicios_para_clase.pdf`** - Ejercicios y material teórico
+
+### 📄 `README.md`
+
+Documentación principal del proyecto
 
 ## ⚙️ Requisitos
 
