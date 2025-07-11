@@ -1,4 +1,3 @@
-
 -- Ejercicios de consultas para la base de datos CineDB
 
 -- 1. Listar todos los espectadores con su nombre y correo.
