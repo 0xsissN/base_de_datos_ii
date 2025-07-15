@@ -1,3 +1,6 @@
+CREATE DATABASE plataforma;
+--DROP DATABASE plataforma;
+
 CREATE TABLE persona(
     id SERIAL PRIMARY KEY,
     nombre VARCHAR(100) NOT NULL,
@@ -83,7 +86,7 @@ CREATE TABLE entrega (
 CREATE TABLE calificacion (
     id  SERIAL PRIMARY KEY,
     entrega_id INT REFERENCES entrega(id),
-    calificacion DECIMAL(3,2) CHECK (calificacion BETWEEN 0 AND 100),
+    calificacion DECIMAL(5,2) CHECK (calificacion BETWEEN 0 AND 100),
     fecha_calificacion TIMESTAMPTZ DEFAULT CURRENT_TIMESTAMP,
     evaluador_id INT8 REFERENCES usuario(id)
 );
