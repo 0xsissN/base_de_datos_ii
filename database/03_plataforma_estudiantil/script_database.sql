@@ -1,4 +1,4 @@
-CREATE DATABASE plataforma;
+--CREATE DATABASE plataforma;
 --DROP DATABASE plataforma;
 
 CREATE TABLE persona(
