@@ -1,54 +1,44 @@
--- ========================================
--- 1. Mostrar los nombres completos de las personas que están registradas como usuarios.
--- Utiliza una subconsulta para identificar a las personas cuyo ID aparece en la tabla de usuario.
--- ========================================
+-- ================================================
+-- BASE DE DATOS
+-- ================================================
 
+-- Ejercicio 1.
+-- Muestra los nombres de las personas que están inscritas en más de un curso.
+-- 🔸 Campos a mostrar: nombre, apellido_paterno, apellido_materno.
 
+-- Ejercicio 2.
+-- Lista los títulos de los cursos que tienen 3 o más tareas asignadas en alguno de sus módulos.
+-- 🔸 Campos a mostrar: titulo, estado, fecha_creacion.
 
--- ========================================
--- 2. Mostrar los nombres completos de las personas que tienen el rol con nombre "docente".
--- Usa una subconsulta para obtener el ID del rol 'docente' y otra para filtrar las personas con ese rol.
--- ========================================
+-- Ejercicio 3.
+-- Muestra los cursos que tienen al menos un comentario realizado por un usuario que no está inscrito en ese curso.
+-- 🔸 Campos a mostrar: id del curso, titulo.
 
+-- Ejercicio 4.
+-- Lista los usuarios que únicamente tienen inscripciones con estado "completado".
+-- 🔸 Campos a mostrar: nombre completo, email.
 
+-- Ejercicio 5.
+-- Muestra el nombre del usuario que obtuvo la calificación más alta registrada en el sistema.
+-- 🔸 Campos a mostrar: nombre, apellido_paterno.
 
--- ========================================
--- 3. Mostrar los usuarios con más de un rol distinto asignado históricamente.
--- Emplea una subconsulta con GROUP BY y HAVING para identificar usuarios con más de un rol.
--- ========================================
+-- Ejercicio 6.
+-- Muestra los cursos que no tienen ninguna tarea registrada en sus módulos.
+-- 🔸 Campos a mostrar: id del curso, titulo, estado.
 
+-- Ejercicio 7.
+-- Lista los usuarios que tienen al menos un certificado emitido pero nunca hayan realizado una entrega.
+-- 🔸 Campos a mostrar: nombre, apellidos, email.
 
+-- Ejercicio 8.
+-- Muestra los cursos que tienen más de una categoría asignada.
+-- 🔸 Campos a mostrar: id del curso, titulo, cantidad_de_categorias.
 
--- ========================================
--- 4. Mostrar el nombre completo de las personas que se han inscrito en al menos un curso.
--- Usa una subconsulta para encontrar personas que tengan inscripciones registradas.
--- ========================================
+-- Ejercicio 9.
+-- Muestra los nombres de los docentes que tienen al menos un curso con más de 3 módulos.
+-- 🔸 Campos a mostrar: nombre, apellido_paterno, titulo_del_curso.
 
-
-
--- ========================================
--- 5. Mostrar los nombres de los usuarios que realizaron una entrega después de la fecha límite de la tarea.
--- Compara con una subconsulta las fechas de entrega y la fecha límite de la tarea correspondiente.
--- ========================================
-
-
-
--- ========================================
--- 6. Mostrar los títulos de los cursos cuyos docentes han creado más de un curso.
--- Usa una subconsulta para contar cuántos cursos ha creado cada docente y filtrar los que tienen más de uno.
--- ========================================
-
-
-
--- ========================================
--- 7. Mostrar los títulos de los cursos que no tienen ninguna tarea registrada.
--- Identifica cursos cuyos módulos no tienen tareas asociadas, utilizando subconsultas anidadas.
--- ========================================
-
-
-
--- ========================================
--- 8. Mostrar los nombres completos de los usuarios que dejaron comentarios en cursos donde no están inscritos.
--- Utiliza una subconsulta que compare la tabla de comentarios con la de inscripciones.
--- ========================================
-
+-- Ejercicio 10.
+-- Lista los 10 usuarios que realizaron una entrega reciente en tareas con título que contenga la palabra 'f' o 'e'.
+-- Solo se muestra la entrega más reciente por usuario.
+-- 🔸 Campos a mostrar: nombre, apellido_paterno, titulo_de_tarea, fecha_entrega.
