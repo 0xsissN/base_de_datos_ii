@@ -22,22 +22,33 @@
 -- Fecha formato(DD/MM/AAAA)
 -- Estado inscripcion
 
--- Ejercicio 2: Crear una vista vista_entregas_destacadas que incluya:
+-- Ejercicio 2: Crear una vista vista_entregas_destacadas
+-- Solo se incluirán entregas que tengan puntaje mayor a 85 o un comentario no nulo.
+-- Ordenar por fecha de entrega descendente que incluya:
+
 --     Nombre completo del estudiante
 --     Título de la tarea
 --     Puntaje
 --     Comentario
 --     Fecha de entrega
 
--- Solo se incluirán entregas que tengan puntaje mayor a 85 o un comentario no nulo.
--- Ordenar por fecha de entrega descendente.
-
--- Ejercicio 3:Crear la vista vista_promedio_curso que muestre:
---     Curso
+-- Ejercicio 3:Crear la vista vista_promedio_curso donce solo se seleccionara
+-- los cursos donde la descripción contenga la palara "dato" y que muestre:
+--     Curso (Título)
+--     Descripción
+--     Docente
 --     Promedio de calificaciones
 --     Número total de calificaciones
 
--- Solo mostrar cursos con promedio mayor a 85 y al menos 3 calificaciones.
+-- Ejercicio 4: Crear una vista vista_inscritos_estado que muestre los estudiantes inscritos en un curso
+-- y contar el número de cursos por estado de inscripción. Tomar en cuenta que los estudiantes solo se pueden 
+-- listar una vez.
+-- Ejemplo:
+-- Estudiante  | Inscrito | Cancelado | Completado
+-- Juan Pérez  | 5        | 0         | 3
+
+
+
 
 
 
